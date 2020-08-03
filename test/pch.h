@@ -1,6 +1,6 @@
 #pragma once
 #include <gtest/gtest.h>
-#include <../crc.hpp>
+#include <crc.hpp>
 
 #define ASSERT_EQ_CRC(crc, input, result) {				\
 	ASSERT_EQ(crc(input.begin(), input.end()), result); \
